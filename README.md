@@ -34,6 +34,26 @@
 
 </div>
 
+
+## Model Comparison Results
+
+| Metric | YOLOv12n (Single Train) | YOLOv11n (K-Fold Mean) | YOLOv11n (Best Fold) |
+|--------|--------------------------|------------------------|----------------------|
+| Epochs | 20 | 30 | 30 |
+| Training Time (min) | 53.7 | 79.91 | — |
+| mAP@0.5 | 0.4096 | 0.3928 ± 0.0226 | 0.4251 |
+| mAP@0.5:0.95 | 0.1879 | — | — |
+| Precision | 0.2730 | 0.3619 (Best) | 0.3619 |
+| Recall | 0.5133 | 0.3636 (Best) | 0.3636 |
+| F1 Score | 0.3564 | — | — |
+
+### Summary
+
+- **YOLOv12n** achieved the highest single-model mAP@0.5 (0.4096) with faster training
+- **YOLOv11n K-Fold** provides robust cross-validation metrics with mean mAP@0.5 of 0.3928
+- **Best Fold (Fold 1)** reached mAP@0.5 of 0.4251, the highest result across all experiments
+- YOLOv12n shows higher precision-recall balance with F1 score of 0.3564
+
 ---
 
 ## 👥 Team Members
