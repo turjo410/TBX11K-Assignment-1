@@ -37,7 +37,7 @@
 
 ## Model Comparison Results
 
-| Metric | YOLOv10n | YOLOv11n (K-Fold) | YOLOv12n |
+| Metric | YOLOv10n | YOLOv11n (K-Fold) | YOLOv12n (K-Fold) |
 |--------|----------|------------------|----------|
 | Epochs | 30 | 30 | 20 |
 | Training Time (min) | 15.55 | 79.91 | 53.7 |
